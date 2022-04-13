@@ -1,0 +1,22 @@
+{
+    "name": "onepix/invoicebox_sdk",
+    "type": "library",
+    "autoload": {
+        "classmap": [
+            "Invoicebox.php"
+        ],
+        "psr-4": {
+            "Invoicebox\\Contracts\\": "Contracts",
+            "Invoicebox\\Exceptions\\": "Exceptions",
+            "Invoicebox\\Resources\\": "Resources",
+            "Invoicebox\\V2\\": "v2",
+            "Invoicebox\\V3\\": "v3"
+        }
+    },
+    "require": {
+      "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.10 - 9.5.16"
+    }
+}
